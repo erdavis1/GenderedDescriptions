@@ -15,4 +15,7 @@ I installed them as follows:
 
 <h2>A note on the results</h2>
 For a given body part (or bodypart+adjective pair), I calculate the gender skew as follows
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+pctF = (# of times this body part appears for females) / (total # of female body part mentions)
+pctM = (# of times this body part appears for males) / (total # of males body part mentions)
+if pctM > pctF then skew = pctM/pctF, else skew = -pctF/pctM
