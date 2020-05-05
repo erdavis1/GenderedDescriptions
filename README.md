@@ -14,8 +14,8 @@ I installed them as follows:
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;python -m spacy download en
 
 <h2>A note on the results</h2>
-For a given body part (or bodypart+adjective pair), I calculate the gender skew as follows
+For a given body part (or bodypart+adjective pair), I calculate the gender skew as follows.<br><br>
 
-pctF = (# of times this body part appears for females) / (total # of female body part mentions)
-pctM = (# of times this body part appears for males) / (total # of males body part mentions)
+pctF = (# of times this body part appears for females) / (total # of female body part mentions)<br>
+pctM = (# of times this body part appears for males) / (total # of males body part mentions)<br>
 if pctM > pctF then skew = pctM/pctF, else skew = -pctF/pctM
