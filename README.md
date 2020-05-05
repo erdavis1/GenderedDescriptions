@@ -15,5 +15,4 @@ I installed them as follows:
 
 <h2>A note on the results</h2>
 For a given body part (or bodypart+adjective pair), I calculate the gender skew as follows
-
-<img src="https://latex.codecogs.com/gif.latex?pctF&space;=&space;\frac{count\:of\:this\:bodypart}{count\:of\:all\:female\:body\:parts}\\\\\\&space;pctM&space;=&space;\frac{count\:of\:this\:bodypart}{count\:of\:all\:male\:body\:parts}\\\\\\&space;if\:pctM>pctF,\:skew=\frac{pctM}{pctF}\:\:else\:skew&space;=&space;\frac{-pctF}{pctM}" title="pctF = \frac{count\:of\:this\:bodypart}{count\:of\:all\:female\:body\:parts}\\\\\\ pctM = \frac{count\:of\:this\:bodypart}{count\:of\:all\:male\:body\:parts}\\\\\\ if\:pctM>pctF,\:skew=\frac{pctM}{pctF}\:\:else\:skew = \frac{-pctF}{pctM}" />
+https://latex.codecogs.com/gif.latex?pctF&space;=&space;\frac{count\:of\:this\:bodypart}{count\:of\:all\:female\:body\:parts}\\\\\\&space;pctM&space;=&space;\frac{count\:of\:this\:bodypart}{count\:of\:all\:male\:body\:parts}\\\\\\&space;if\:pctM>pctF,\:skew=\frac{pctM}{pctF}\:\:else\:skew&space;=&space;\frac{-pctF}{pctM}
